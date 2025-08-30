@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miss Websmith Sakshi</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 700px;
+      width: 100%;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to top, #2d0660, #c370e1);
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      overflow: hidden;
+    }
+    h2 {
+      font-family: 'Dancing Script', cursive;
+      margin-top: 0;
+    }
+    
+    
+    .highlight {
+      color: #17013a;
+      font-weight: 500;
+      font-display: swap;
+      font-variant: small-caps;
+      font-style: italic;
+      font-variant-ligatures: historical-ligatures;
+      font-kerning: auto;
+      padding-top: 0%;
+      margin-top: 10px;
+    }  
+    .container {
+      text-align: center; 
+      animation: zoomIn 2s ease-in-out forwards;
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    h1 {
+  background: linear-gradient(to right, #230f2b, #3b0681);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+    @keyframes zoomIn {
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    h1,h2{
+      margin-top: 1px;
+      margin-bottom: 0px;
+    }
+
+
+    .logo-img {
+      max-width: 300px;
+      width: 80%;
+      border-radius: 20px;
+      margin-bottom: 0px;
+      
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <script>
+    setTimeout(function() {
+      window.location.href = "portfolio2.html";
+    }, 3000);
+    </script>
+  <div class="container">
+    <img src="logo-png.png" alt="Miss Websmith Logo" class="logo-img" />
+    <h1><b><span class="highlight">Nascent Sakshi</span></b></h1>
+    <h2>Turning Ideas into Impact</h2>
+      
+  </div>
+</body>
+</html>
